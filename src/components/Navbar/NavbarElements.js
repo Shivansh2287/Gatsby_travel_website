@@ -48,7 +48,6 @@ display:none;
 
 @media screen and (max-width:960px){
     display:block;
-   
     position:absolute;
     top:0;
     right:0;
@@ -70,10 +69,10 @@ text-align:center;
   width:100%;
   height:90vh;
   position:absolute;
-  top:${({click})=>(click?"100%":"-100px")};
+  top:${({click})=>(click?"100%":"-1000px")};
   opacity:1;
   transition: all 0.2s ease;
-  background:#fff;
+  background: #fff;
 }
 `
 
@@ -83,7 +82,7 @@ height:80px;
 
 @media screen and (max-width:960px){
     width:100%;
-    background-color:yellow;
+    
 }
 `
 
